@@ -16,7 +16,7 @@ body {
     padding: 20px;
   }
 
-  .movie-container{
+  .movies{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -67,7 +67,7 @@ body {
   
   /* Media queries for responsive design */
   @media screen and (max-width: 768px) {
-	.movie-container {
+	.movies {
 		/* flex-direction: column; */
 		align-items: center;
 	}
@@ -82,15 +82,3 @@ body {
         height: 250px;
 	}
 }  
-
-@media  screen and (max-width: 1250px) {
-    .movie{
-        width: 30%;
-    }
-}
-
-@media  screen and (max-width: 600px) {
-    .movie{
-        width: 30%;
-    }
-}
